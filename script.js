@@ -41,11 +41,12 @@ function playRound(playerSelection, computerSelection) {
 
 // play multiple rounds of game
 function game() {
+    let maxScore = 5
     let playerScore = 0;
     let computerScore = 0;
 
     // play five rounds of game
-    for (let i = 1; i <= 5; i++) {
+    while (playerScore < maxScore && computerScore < maxScore) {
         let result = playRound(getPlayerChoice(), getComputerChoice());
 
     // update score
