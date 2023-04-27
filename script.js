@@ -56,7 +56,7 @@ function game() {
     };
     
     // print final results
-    console.log(`Final Score:\nPlayer = ${playerScore} | Computer = ${computerScore}`)
+    console.log(`Final Score:\nPlayer = ${playerScore}\nComputer = ${computerScore}`)
 }
 
 game();
